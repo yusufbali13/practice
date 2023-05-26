@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  padding: 1rem;
+}
+
+header a img {
+  width: 60px;
+}
+
+header .sign-in {
+  float: right;
+  color: brown;
+  padding-top: 1.7rem;
+  padding-right: 0.5rem;
+}
+
+header .sign-in a {
+  font-family: "Oswald", sans-serif;
+  color: brown;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header .sign-in a:hover {
+  border-bottom: 2px solid brown;
+}
+
+nav.stic {
+  position: sticky;
+  top: 0rem;
+  padding: 2rem;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  text-align: center;
+  z-index: 1;
+}
+
+nav.stic a {
+  font-family: "Sigmar", cursive;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  margin-right: 0.8rem;
+}
+
+nav.stic a:hover {
+  color: white;
+}
+
+nav.banner {
+  position: relative;
+  background-color: blanchedalmond;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .hero {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0px 2px 4px black;
+  font-family: "Oswald", sans-serif;
+}
+.hero h3 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: red;
+  text-shadow: 0px 2px 4px grey;
+}
+
+.banner button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #d9afd9;
+  font-weight: 700;
+}
+
+.banner button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: rgb(93, 201, 66);
+}
+
+main {
+  font-family: "Oswald", sans-serif;
+  background-color: blanchedalmond;
+  padding: 2rem;
+  text-align: justify;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(93, 201, 66);
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 0.3rem;
+}
+
+.whatsapp:hover {
+  cursor: pointer;
+  outline: 2px solid rgb(93, 201, 66);
+  outline-offset: 4px;
+}
